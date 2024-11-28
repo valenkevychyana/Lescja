@@ -2,7 +2,7 @@ import math
 
 class Shape:
     def area(self):
-        raise NotImplementedError("Metoda 'area' musi być zaimplementowana w klasie pochodnej.")
+        raise NotImplementedError
 class Rectangle(Shape):
     def __init__(self, width, height):
         self.width = width
